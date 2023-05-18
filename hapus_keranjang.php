@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(isset($_GET['id'])){
+    if(isset($_SESSION['keranjang'][$_GET['id']])){
+        unset($_SESSION['keranjang'][$_GET['id']]);
+        header('location:keranjang.php');
+    }
+}
+?>

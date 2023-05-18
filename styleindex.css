@@ -1,0 +1,194 @@
+body{
+    margin: 0;
+    background-color: navy;
+    color: white;
+    background-color: #0a0a23;
+}
+.container{
+    margin:auto;
+}
+.tabelproduk{
+    width: 90%;
+    padding:20px;
+    margin: auto;
+    min-width: 650px;
+}
+td{
+    padding: 20px;
+}
+.gbrproduk{
+    width:300px;
+    border-radius: 5px 5px 150px 5px;
+    
+}
+a{
+    text-decoration: none;
+   color: white;
+}
+.nama{
+    margin-bottom: -30px;
+}
+.nama_pesanan{
+  margin-top:-20px;
+  margin-bottom: -10px;
+}
+.beli{
+    background-color: black;
+    padding:5px;
+    border: 1px solid white;
+    width: 20%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.gamarg{
+  margin-bottom: -5px;
+}
+.beli:hover{
+    transition: 1s;
+    background-color: white;
+    color: black;
+}
+.harga{
+    font-size: 40px;
+    margin-top: -10px;
+}
+.yuhu{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 100px;
+}
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #1b1b32;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+  }
+  nav {
+    width: 70%;
+    max-width: 400px;
+    height: 50px;
+  }
+  
+  nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    
+  }
+  
+  nav > ul > li {
+    color: #dfdfe2;
+    margin: 0 0.1rem;
+    padding: 0.3rem;
+    display: block;
+    border-radius: 10px;
+  }
+  
+  nav > ul > li:hover {
+    background-color: #dfdfe2;
+    transition: 1s;
+    color: #1b1b32;
+    cursor: pointer;
+  }
+  
+  li > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .keranjang{
+    width: 300px;
+    height:100%;
+    margin-top: -50px;
+    position: fixed;
+    background-color: #1b1b32;
+    padding: 10px;
+  }
+  
+  .chart{
+    text-align: center;
+    font-size: 30px;
+    margin:50px auto;
+  }
+   
+
+  input[type="number"] {
+    margin-top:-30px;
+    width: 50px;
+    height: 25px;
+    padding: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+  }
+  input[name="keranjang"] {
+    display: block;
+    margin: 0;
+    height: 2em;
+    color:white;
+    font-size: 1.1rem;
+    background-color: #1b1b32;
+    border:0;
+    border-radius: 5px;
+    min-width: 300px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+  }
+  input[name="keranjang"]:hover{
+    transition: 1s;
+    background-color: white;
+    color: #1b1b32;
+
+  }
+  input[name="pesan"],input[name="selesai"] {
+    display: block;
+    width: 20%;
+    margin: 0.5em auto;
+    height: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    background-color: #1b1b32;
+    border:0;
+    border-radius: 5px;
+    color: white;
+    min-width: 100px;
+  }
+  input[name="pesan"]:hover,input[name="selesai"]:hover{
+    cursor: pointer;
+    transition: 1s;
+    width:80%;
+    background-color: white;
+    color: #1b1b32;
+
+  }
+ .identity{
+    margin-left: 350px;
+    
+ }
+ .tanggaltotal{
+    font-size: 20px;
+ }
+ .divider{
+    height: 2px;
+    width: 45%;
+    background-color: azure;
+    margin: 10px auto;
+ }
+ .alert{
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    background-color: #1b1b32;
+    padding: 5px 30px;
+ }
+.alamatmini{
+    width:60%;
+    font-size: 18px;
+}
